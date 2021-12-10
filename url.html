@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+          padding-top: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        
+        .responsive-iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          width: 50%;
+          height: 50%;
+          border: none;
+        }
+        </style>
+</head>
+<body>
+    <h2>Get the current URL</h2>
+
+<p id="demo"></p>
+
+<div class="container">
+    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/l62ZsMHczcE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture?autoplay=1&mute=1"></iframe>
+  </div>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/WJmFjgo12H8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/gtE7tsiU67w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+
+</html>
